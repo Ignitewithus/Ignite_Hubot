@@ -18,7 +18,9 @@
     "hubot-redis-brain": "0.0.2",
     "hubot-scripts": "^2.5.16",
     "hubot": "^2.9.3",
-    "hubot-hipchat": "^2.7.5"
+    "hubot-hipchat": "^2.7.5",
+    "hubot-seen": "^0.2.1",
+    "hubot-ambush": "0.0.1"
   },
   "engines": {
     "node": "0.10.x"
