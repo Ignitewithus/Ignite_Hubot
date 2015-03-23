@@ -2,7 +2,6 @@
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
-  "hubot-google-images",
   "hubot-google-translate",
   "hubot-pugme",
   "hubot-maps",
@@ -11,6 +10,12 @@
   "hubot-shipit",
   "hubot-youtube",
   "hubot-seen",
-"hubot-ambush",
- "hubot-google-images"
+  "hubot-ambush",
+  "hubot-google-images",
+  "hubot-auth",
+  "hubot-asana",
+  "hubot-trello",
+  "hubot-plusplus",
+  "hubot-darksky",
+  "hubot-heroku-deploy-notifier"
 ]

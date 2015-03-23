@@ -20,7 +20,13 @@
     "hubot": "^2.9.3",
     "hubot-hipchat": "^2.7.5",
     "hubot-seen": "^0.2.1",
-    "hubot-ambush": "0.0.1"
+    "hubot-ambush": "0.0.1",
+    "hubot-auth": "^1.2.0",
+    "hubot-asana": ">= 0.0.0",
+    "hubot-trello": "*",
+    "hubot-plusplus": "*",
+    "hubot-darksky": "^1.0.2",
+    "hubot-heroku-deploy-notifier": "^0.1.4"
   },
   "engines": {
     "node": "0.10.x"

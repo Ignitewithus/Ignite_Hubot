@@ -20,3 +20,9 @@ node_modules
 .idea/encodings.xml
 
 .idea/.name
+
+.idea/dictionaries/markmontroy.xml
+
+.idea/jsLinters/jshint.xml
+
+.idea/jsLinters/jslint.xml
