@@ -23,7 +23,6 @@
     "hubot-ambush": "0.0.1",
     "hubot-auth": "^1.2.0",
     "hubot-asana": ">= 0.0.0",
-    "hubot-trello": "*",
     "hubot-plusplus": "*",
     "hubot-darksky": "^1.0.2",
     "hubot-heroku-deploy-notifier": "^0.1.4"

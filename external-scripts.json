@@ -14,7 +14,6 @@
   "hubot-google-images",
   "hubot-auth",
   "hubot-asana",
-  "hubot-trello",
   "hubot-plusplus",
   "hubot-darksky",
   "hubot-heroku-deploy-notifier"
