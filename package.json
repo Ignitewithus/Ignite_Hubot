@@ -25,7 +25,8 @@
     "hubot-asana": ">= 0.0.0",
     "hubot-plusplus": "*",
     "hubot-darksky": "^1.0.2",
-    "hubot-heroku-deploy-notifier": "^0.1.4"
+    "hubot-heroku-deploy-notifier": "^0.1.4",
+    "hubot-github-repo-event-notifier": ">= 0.0.0"
   },
   "engines": {
     "node": "0.10.x"
