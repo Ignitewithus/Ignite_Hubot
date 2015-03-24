@@ -1,0 +1,20 @@
+{
+  "hubot": {
+    "provider": "heroku",
+    "auto_merge": false,
+    "repository": "MyOrg/my-org-hubot",
+    "environments": ["production"],
+
+    "heroku_production_name": "my-orgs-hubot"
+  },
+
+  "dotcom": {
+    "provider": "heroku",
+    "repository": "MyOrg/www",
+    "environments": ["production","staging"],
+    "required_contexts": ["ci/janky", "security/brakeman"],
+
+    "heroku_staging_name": "my-org-www-staging",
+    "heroku_production_name": "my-org-www"
+  }
+}
