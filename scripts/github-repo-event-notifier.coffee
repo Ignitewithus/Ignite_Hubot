@@ -57,7 +57,7 @@ module.exports = (robot) ->
       if eventType in eventTypes
         announceRepoEvent data, eventType, (what) ->
           console.log('in event type chooser')
-          robot.send  'in event type chooser'
+          robot.send room, 'in event type chooser'
           robot.messageRoom room, what
       else
         console.log "Ignoring #{eventType} event as it's not allowed."
