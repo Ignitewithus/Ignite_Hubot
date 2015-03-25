@@ -37,6 +37,9 @@ module.exports =
 
 # from https://github.com/hubot-scripts/hubot-github-repo-event-notifier/pull/22/files
   push: (data, callback) ->
+    console.log('in push event in all')
+    console.log data
+    console.log callback
     callback "New push to \"#{data.repository.name}\" by #{data.pusher.name}: #{data.compare}"
 
   page_build: (data, callback) ->

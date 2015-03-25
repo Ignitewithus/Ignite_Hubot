@@ -49,6 +49,9 @@ module.exports = (robot) ->
     room = query.room || process.env["HUBOT_GITHUB_EVENT_NOTIFIER_ROOM"]
     eventType = req.headers["x-github-event"]
     console.log "Processing event type #{eventType}..."
+    console.log eventTypesRaw
+    console.log data
+    console.log room
 
     try
       if eventType in eventTypes
