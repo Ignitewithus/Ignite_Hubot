@@ -62,8 +62,8 @@ module.exports = (robot) ->
       else
         console.log "Ignoring #{eventType} event as it's not allowed."
     catch error
-      robot.messageRoom room, "Whoa, I got an error: #{error} "
-      console.log "github repo event notifier error: #{error}. Request: #{req.body} "
+      robot.messageRoom room, "Whoa, I got an error: #{error}"
+      console.log "github repo event notifier error: #{error}. Request: #{req.body}"
 
     res.end ""
 
