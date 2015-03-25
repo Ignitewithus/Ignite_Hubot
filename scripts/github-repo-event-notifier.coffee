@@ -50,7 +50,7 @@ module.exports = (robot) ->
     eventType = req.headers["x-github-event"]
     console.log "Processing event type #{eventType}..."
     console.log " Valid events are: #{eventTypesRaw} "
-    console.log "Sending to room: #{room}"
+    console.log "Sending to room: #{room} "
 
     try
       if eventType in eventTypes
