@@ -17,6 +17,5 @@
   "hubot-plusplus",
   "hubot-darksky",
   "hubot-heroku-deploy-notifier",
-  "hubot-github-repo-event-notifier",
   "hubot-deploy"
 ]
