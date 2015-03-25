@@ -32,8 +32,8 @@ status = (msg) ->
   .get() (err, res, body) ->
     try
       json = JSON.parse(body)
-      msg.send "Production:  #{json['status']['Production']}\n" +
-        "Development: #{json['status']['Development']}\n"
+      msg.send "Production:  #{json['status']['Production']}\n " +
+        "Development: #{json['status']['Development']}\n "
     catch error
       msg.send "Uh oh, I had trouble figuring out what the Heroku cloud is up to."
 
