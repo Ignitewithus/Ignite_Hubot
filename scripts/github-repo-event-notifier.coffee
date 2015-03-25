@@ -48,6 +48,7 @@ module.exports = (robot) ->
     data = req.body
     room = query.room || process.env["HUBOT_GITHUB_EVENT_NOTIFIER_ROOM"]
     eventType = req.headers["x-github-event"]
+    robot.messageRoom room "Processing event type #{eventType}..."
     console.log "Processing event type #{eventType}..."
     console.log eventTypesRaw
     console.log data
