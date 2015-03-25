@@ -57,6 +57,7 @@ module.exports = (robot) ->
         announceRepoEvent data, eventType, (what) ->
           console.log('in event type chooser')
           robot.send { room: room }, 'in event type chooser - and a test change'
+            robot.messageRoom room, "trying to send this to room #{room}"
           console.log(what)
           robot.messageRoom room, what
       else
@@ -65,6 +66,7 @@ module.exports = (robot) ->
       robot.messageRoom room, "Whoa, I got an error: #{error}"
       console.log "github repo event notifier error: #{error}. Request: #{req.body}"
 
+    robot.messageRoom room, "lets see if this goes out"
     res.end ""
 
 announceRepoEvent = (data, eventType, cb) ->
