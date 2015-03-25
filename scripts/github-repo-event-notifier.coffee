@@ -66,6 +66,7 @@ module.exports = (robot) ->
       robot.messageRoom room, "Whoa, I got an error: #{error}"
       console.log "github repo event notifier error: #{error}. Request: #{req.body}"
 
+    robot.messageRoom room, "lets see if this goes out"
     res.end ""
 
 announceRepoEvent = (data, eventType, cb) ->
