@@ -30,11 +30,11 @@
 #   patcon
 #   parkr
 
-url           = require('url')
-querystring   = require('querystring')
-eventActions  = require('./event-actions/all')
+url = require('url')
+querystring = require('querystring')
+eventActions = require('./event-actions/all')
 eventTypesRaw = process.env['HUBOT_GITHUB_EVENT_NOTIFIER_TYPES']
-eventTypes    = []
+eventTypes = []
 
 if eventTypesRaw?
   eventTypes = eventTypesRaw.split(',')
@@ -56,7 +56,7 @@ module.exports = (robot) ->
       if eventType in eventTypes
         announceRepoEvent data, eventType, (what) ->
           console.log('in event type chooser')
-          robot.send { room: room }, 'in event type chooser - and a test change'
+          robot.send {room: room}, 'in event type chooser - and a test change'
             robot.messageRoom room, "trying to send this to room #{room}"
           console.log(what)
           robot.messageRoom room, what
