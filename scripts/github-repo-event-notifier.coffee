@@ -50,21 +50,23 @@ module.exports = (robot) ->
     eventType = req.headers["x-github-event"]
     console.log "Processing event type #{eventType}..."
     console.log " Valid events are: #{eventTypesRaw} "
-    console.log "Sending to room: #{room}"
+    console.log "Sending to room: #{room} "
 
     try
       if eventType in eventTypes
         announceRepoEvent data, eventType, (what) ->
           console.log('in event type chooser')
           robot.send { room: room }, 'in event type chooser - and a test change'
+            robot.messageRoom room, "trying to send this to room #{room}"
           console.log(what)
           robot.messageRoom room, what
       else
         console.log "Ignoring #{eventType} event as it's not allowed."
     catch error
-      robot.messageRoom room, "Whoa, I got an error: #{error} "
-      console.log "github repo event notifier error: #{error}. Request: #{req.body} "
+      robot.messageRoom room, "Whoa, I got an error: #{error}"
+      console.log "github repo event notifier error: #{error}. Request: #{req.body}"
 
+    robot.messageRoom room, "lets see if this goes out"
     res.end ""
 
 announceRepoEvent = (data, eventType, cb) ->
