@@ -17,6 +17,5 @@
   "hubot-plusplus",
   "hubot-darksky",
   "hubot-heroku-deploy-notifier",
-  "hubot-deploy",
-  "hubot-groupchatter"
+  "hubot-deploy"
 ]
