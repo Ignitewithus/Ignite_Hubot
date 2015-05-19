@@ -11,7 +11,7 @@
 # TODO: could scrape the Google search page, but that is against TOS.
 
 places =
-  jax: "P2lobNr7SWfbvXjJJ7CC7hxu20FuVZbJotPgtWVqbhw6G6nhfx1pGyH3-7oIA4uHvxFYBEWpK7ShyuMA4261IoKsGaLMV2DSOXgouHw78lMIim7RjCi5yYq17LS-sCsDfkeqH35Qv3e85DbWX38LJqkMPFpxCaCqEpYIMWnd1qaDltIXnwqWdw"
+  jax: "RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,P2lobNr7SWfbvXjJJ7CC7hxu20FuVZbJotPgtWVqbhw6G6nhfx1pGyH3-7oIA4uHvxFYBEWpK7ShyuMA4261IoKsGaLMV2DSOXgouHw78lMIim7RjCi5yYq17LS-sCsDfkeqH35Qv3e85DbWX38LJqkMPFpxCaCqEpYIMWnd1qaDltIXnwqWdw"
 defaultPlace = "jax"
 
 
