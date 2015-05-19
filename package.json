@@ -27,7 +27,8 @@
     "hubot-darksky": "^1.0.2",
     "hubot-heroku-deploy-notifier": "^0.1.4",
     "hubot-deploy": ">= 0.0.0",
-    "hubot-groupchatter": ">=0.0.0"
+    "hubot-groupchatter": ">=0.0.0",
+    "hubot-standup-alarm": "0.0.4"
   },
   "engines": {
     "node": "0.10.x"

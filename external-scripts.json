@@ -17,5 +17,6 @@
   "hubot-plusplus",
   "hubot-darksky",
   "hubot-heroku-deploy-notifier",
-  "hubot-deploy"
+  "hubot-deploy",
+  "hubot-standup-alarm"
 ]
