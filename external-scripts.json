@@ -22,5 +22,6 @@
   "hubot-urban",
   "hubot-voting",
   "hubot-remind",
-  "hubot-newrelic2"
+  "hubot-newrelic2",
+  "hubot-cron"
 ]
