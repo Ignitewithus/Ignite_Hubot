@@ -28,7 +28,7 @@
     "hubot-heroku-deploy-notifier": "^0.1.4",
     "hubot-deploy": ">= 0.0.0",
     "hubot-groupchatter": ">=0.0.0",
-    "hubot-standup-alarm": "*",
+    "hubot-standup-alarm": ">= 0.0.6",
     "jsdom": "3.1.2",
     "request": ">=0.0.0",
     "cheerio": ">=0.0.0",
