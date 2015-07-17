@@ -28,11 +28,13 @@
     "hubot-heroku-deploy-notifier": "^0.1.4",
     "hubot-deploy": ">= 0.0.0",
     "hubot-groupchatter": ">=0.0.0",
-    "hubot-standup-alarm": "0.0.4",
+    "hubot-standup-alarm": "*",
     "jsdom": "3.1.2",
     "request": ">=0.0.0",
     "cheerio": ">=0.0.0",
-    "hubot-urban": "^1.0.0"
+    "hubot-urban": "^1.0.0",
+    "hubot-remind": "^0.1.4",
+    "hubot-newrelic2": "^0.2.4"
   },
   "engines": {
     "node": "0.10.x"
