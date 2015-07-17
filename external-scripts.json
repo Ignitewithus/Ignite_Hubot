@@ -19,5 +19,8 @@
   "hubot-heroku-deploy-notifier",
   "hubot-deploy",
   "hubot-standup-alarm",
-  "hubot-urban"
+  "hubot-urban",
+  "hubot-voting",
+  "hubot-remind",
+  "hubot-newrelic2"
 ]
