@@ -36,7 +36,8 @@
     "hubot-remind": "^0.1.4",
     "hubot-newrelic2": "^0.2.4",
     "hubot-voting": "*",
-    "hubot-cron": "^0.2.9"
+    "hubot-cron": "^0.2.9",
+    "hubot-slack": "^3.3.0"
   },
   "engines": {
     "node": "0.10.x"
