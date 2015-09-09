@@ -23,5 +23,6 @@
   "hubot-voting",
   "hubot-remind",
   "hubot-newrelic2",
-  "hubot-cron"
+  "hubot-cron",
+  'hubot-slack-utils'
 ]
