@@ -40,7 +40,8 @@
     "hubot-slack": "^3.3.0",
     "hubot-slack-utils": "0.0.5",
     "soupselect": "^0.2.0",
-    "htmlparser": "^1.7.7"
+    "htmlparser": "^1.7.7",
+    "validator": "^4.0.5"
   },
   "engines": {
     "node": "0.10.x"
