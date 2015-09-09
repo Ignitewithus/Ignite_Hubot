@@ -15,6 +15,5 @@
   "ruby_rules.coffee",
   "rubygems.coffee",
   "stallman.coffee",
-  "steam.coffee",
-  "http-info.coffee"
+  "steam.coffee"
 ]
